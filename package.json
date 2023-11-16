@@ -1,0 +1,20 @@
+{
+  "name": "babel_decode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"tsc && node ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.3"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.6.7",
+    "@types/babel__traverse": "^7.20.4",
+    "@types/node": "^20.9.0"
+  }
+}
